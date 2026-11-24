@@ -1,0 +1,39 @@
+{
+  "full-pi": {
+    "factory": "bridge:command",
+    "config": {
+      "argv": [
+        "node",
+        "--experimental-import-meta-resolve",
+        "pi_fixture.mjs"
+      ],
+      "sidecar": {
+        "compact": false
+      }
+    }
+  },
+  "stock-cut": {
+    "factory": "bridge:command",
+    "config": {
+      "argv": [
+        "node",
+        "--experimental-import-meta-resolve",
+        "pi_fixture.mjs"
+      ],
+      "sidecar": {}
+    }
+  },
+  "stock-cut-plus-archive": {
+    "factory": "bridge:command",
+    "config": {
+      "argv": [
+        "node",
+        "--experimental-import-meta-resolve",
+        "pi_fixture.mjs"
+      ],
+      "sidecar": {
+        "recall": true
+      }
+    }
+  }
+}

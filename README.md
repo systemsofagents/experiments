@@ -3,8 +3,8 @@ Code and notes from various experiments
 
 ## Research tracks
 
-- [01 · The uncapped session](notes/01-uncapped-session.md): compaction, indexing, and corrections in long-lived sessions.
-- [02 · The shared filesystem](notes/02-shared-filesystem.md): durable state, collaboration, and access controls.
+- [01 � The uncapped session](notes/01-uncapped-session.md): compaction, indexing, and corrections in long-lived sessions.
+- [02 � The shared filesystem](notes/02-shared-filesystem.md): durable state, collaboration, and access controls.
 
 ## Explainers
 
@@ -18,5 +18,9 @@ Code and notes from various experiments
 ## Prototypes
 
 - [Pi session context](prototypes/pi-session-context/README.md): runnable local context and recall examples, a native Pi Durable integration check, and a mocked Responses stream fixture. See the [provider caching notes](prototypes/pi-session-context/caching.md).
+
+## Benchmarks
+
+- [Uncapped-session benchmark runner](benchmarks/README.md): paired compaction and memory experiments with interchangeable agent hooks, native Pi fixtures, and public dataset adapters.
 
 These notes describe proposed experiments, not findings. Website source lives in [systemsofagents/site](https://github.com/systemsofagents/site).
