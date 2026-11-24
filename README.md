@@ -11,4 +11,8 @@ Code and notes from various experiments
 - [Pi Durable sessions and context compaction](explainers/pi-durable-sessions.md): a progressive guide and runnable extension example.
 - [All explainers](explainers/README.md).
 
+## Specs
+
+- [Session storage and context policies for Pi Durable](specs/pi-session-context.md): proposed architecture for bounded model context, native compaction and scoped evidence recall.
+
 These notes describe proposed experiments, not findings. Website source lives in [systemsofagents/site](https://github.com/systemsofagents/site).
