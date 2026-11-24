@@ -15,4 +15,8 @@ Code and notes from various experiments
 
 - [Session storage and context policies for Pi Durable](specs/pi-session-context.md): proposed architecture for bounded model context, native compaction and scoped evidence recall.
 
+## Prototypes
+
+- [Pi session context](prototypes/pi-session-context/README.md): runnable local context and recall examples, a native Pi Durable integration check, and a mocked Responses stream fixture. See the [provider caching notes](prototypes/pi-session-context/caching.md).
+
 These notes describe proposed experiments, not findings. Website source lives in [systemsofagents/site](https://github.com/systemsofagents/site).

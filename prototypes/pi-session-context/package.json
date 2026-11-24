@@ -1,0 +1,14 @@
+{
+  "name": "pi-session-context-prototype",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.ts",
+    "demo": "node demo.ts",
+    "test:pi": "node --experimental-import-meta-resolve integration/pi-durable.mjs",
+    "canary:openai": "node integration/live-openai.ts"
+  }
+}
