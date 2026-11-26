@@ -1,6 +1,8 @@
 # experiments
 Code and notes from various experiments
 
+Start with [Concepts](CONCEPTS.md) for the vocabulary and design decisions behind the experiments.
+
 ## Research tracks
 
 - [01 � The uncapped session](notes/01-uncapped-session.md): compaction, indexing, and corrections in long-lived sessions.
